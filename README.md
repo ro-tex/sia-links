@@ -1,7 +1,7 @@
 # SiaLinks
-SiaLinks translates Sia links (sia://hash) to standard http links (https://siasky.net/hash).
+SiaLinks translates [Sia](https://sia.tech/) links (sia://hash) to standard http links (https://siasky.net/hash).
 
-It comes preloaded with some Skynet portals but you can add your own or remove a portal you don't like.
+It comes preloaded with some [Skynet](https://blog.sia.tech/skynet-bdf0209d6d34) [portals](https://siasky.net/) but you can add your own or remove a portal you don't like.
 
 ## Installation
 
