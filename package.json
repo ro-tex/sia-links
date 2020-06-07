@@ -1,0 +1,24 @@
+{
+  "name": "sia-links",
+  "version": "0.1.0",
+  "description": "SiaLinks translates Sia links (sia://<hash>) to standard http links (https://siasky.net/<hash>).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ro-tex/sia-links.git"
+  },
+  "keywords": [
+    "sia",
+    "skynet",
+    "link"
+  ],
+  "author": "Ivaylo Novakov <inovakov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ro-tex/sia-links/issues"
+  },
+  "homepage": "https://github.com/ro-tex/sia-links#readme"
+}
