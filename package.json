@@ -1,6 +1,6 @@
 {
   "name": "sia-links",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SiaLinks translates Sia links (sia://<hash>) to standard http links (https://siasky.net/<hash>).",
   "main": "index.js",
   "type": "module",
