@@ -2,7 +2,7 @@ import {getRandomPortal} from "./portals.js"
 
 export {isSiaLink, translateSiaLink}
 
-const SIA_LINK_RE = /^sia:\/\/([a-zA-Z0-9-_]{46}.*)$/
+const SIA_LINK_RE = /^sia:(\/\/){0,1}([a-zA-Z0-9-_]{46}.*)$/
 
 // Checks if the given string is a valid Sia link.
 // Returns bool.
@@ -21,7 +21,7 @@ function translateSiaLink(sialink) {
     return null
   }
   const portal = getRandomPortal()
-  return sialink.replace(SIA_LINK_RE, `https://${portal}/$1`)
+  return sialink.replace(SIA_LINK_RE, `https://${portal}/$2`)
 }
 
 
